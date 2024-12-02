@@ -4,11 +4,13 @@
   "description": "demo app to illustrate creating RESTful APIs using MERN stack",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
   }
 }
