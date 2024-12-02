@@ -1,0 +1,11 @@
+{
+  "name": "demo-mern-backend-mongodb-expressjs-nodejs",
+  "version": "1.0.0",
+  "description": "demo app to illustrate creating RESTful APIs using MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
