@@ -16,6 +16,9 @@
 
 # Tech-stack:
 
+- mongo db
+- express js
+- node js
 
 # APIs:
 
@@ -49,6 +52,9 @@ login_credential <---one-to-one ---> user <--- one-to-many ---> note <--- many-t
 # Getting Started:
 
 1. Clone the project.
+2. cd demo-mern-backend-mongodb-expressjs-nodejs
+3. npm install
+4. npm start
 
 # Known Bugs:
 
