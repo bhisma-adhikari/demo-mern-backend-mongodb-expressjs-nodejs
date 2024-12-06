@@ -1,14 +1,11 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+var indexRouter = require('./routes/index');
+var usersRouter = require('./routes/users');
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
-
-app.get('/v1/users', (req, res) => {
-  res.json([]);
-});
+app.use('/', indexRouter);
+app.use('/v1/users', usersRouter);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
